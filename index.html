@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.css"
+        integrity="sha512-kJlvECunwXftkPwyvHbclArO8wszgBGisiLeuDFwNM8ws+wKIw0sv1os3ClWZOcrEB2eRXULYUsm8OVRGJKwGA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="navbar">
+        <div class="navleft">
+            <h1>E-Grocery Super Mart</h1>
+            <h4>Whatover the occasion ,we've get get you covered.</h4>
+
+            <div class="search">
+
+                <label for="search-sub"></label>
+                <input type="text" id="search-sub" placeholder="Search E-Grocery Super Mart">
+
+                <i class="ri-search-line"></i>
+            </div>
+        </div>
+        <div class="navright">
+            <img src="./navright.png" alt="">
+        </div>
+    </div>
+
+
+
+    <div class="hading">
+        <div class="hleft">
+            <h3>26 products found</h3>
+        </div>
+        <div class="hright">
+            <label for="number"></label>
+            <select id="number" name="selected_number">
+                <option value="10">10</option>
+                <option value="20">20</option>
+                <option value="30">30</option>
+                <option value="40">40</option>
+            </select>
+
+            <label for="featured"></label>
+            <select id="featured" name="selected_number">
+                <option value="1">Sort by: Featured</option>
+                <option value="2">Sort by: Featured</option>
+                <option value="3">Sort by: Featured</option>
+                <option value="4">Sort by: Featured</option>
+            </select>
+
+        </div>
+    </div>
+
+
+    <div class="main">
+
+        <div class="box">
+            <div class="layer1">
+                <div class="ad">salse</div>
+                <div class="ad" id="green">100%</div>
+            </div>
+
+            <div class="layer2">
+                <img src="./haldiram save bhujiya.jpg" alt="">
+            </div>
+
+            <div class="layer3">
+                <h6 id="gree">Snack & Munchies</h6>
+                <h3 id="black">Haldiram's Sav Bhujia</h3>
+
+                <i class="ri-star-fill"></i>
+                <i class="ri-star-fill"></i>
+                <i class="ri-star-fill"></i>
+                <i class="ri-star-fill"></i>
+                <i class="ri-star-half-fill"></i>
+                <span id="gree">4.3(4)</span>
+
+            </div>
+
+            <div class="layer4">
+                <div class="l4left">
+                    <span>$21.6</span>
+                    <span id="gree"><del>$24</del></span>
+                </div>
+                <div class="l4right">
+                    <button>+Add</button>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="box">
+            <div class="layer1"></div>
+
+            <div class="layer2">
+                <img src="./parle-g.webp" alt="">
+            </div>
+
+            <div class="layer3">
+                <h6 id="gree">Bakery & Biscuits</h6>
+                <h3 id="black">Parle-G</h3>
+
+                <i class="ri-star-fill"></i>
+                <i class="ri-star-fill"></i>
+                <i class="ri-star-fill"></i>
+                <i class="ri-star-fill"></i>
+                <i class="ri-star-half-fill"></i>
+                <span id="gree">4.3(4)</span>
+
+            </div>
+
+            <div class="layer4">
+                <div class="l4left">
+                    <span>$5</span>
+                    <span id="gree"><del>$8</del></span>
+                </div>
+                <div class="l4right">
+                    <button>+Add</button>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="box">
+            <div class="layer1">
+                <div class="ad">Buy Now</div>
+            </div>
+
+            <div class="layer2">
+                <img src="./5-star.webp" alt="">
+            </div>
+
+            <div class="layer3">
+                <h6 id="gree">Bakery & Biscuits</h6>
+                <h3 id="black">Cadbury 5 star Chocolate</h3>
+
+                <i class="ri-star-fill"></i>
+                <i class="ri-star-fill"></i>
+                <i class="ri-star-fill"></i>
+                <i class="ri-star-fill"></i>
+                <i class="ri-star-half-fill"></i>
+                <span id="gree">4.3(4)</span>
+
+            </div>
+
+            <div class="layer4">
+                <div class="l4left">
+                    <span>$30.5</span>
+                    <span id="gree"><del>$35</del></span>
+                </div>
+                <div class="l4right">
+                    <button>+Add</button>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="box">
+            <div class="layer1">
+                <div class="ad">salse</div>
+                <div class="ad" id="green">100%</div>
+            </div>
+
+            <div class="layer2">
+                <img src="./lays.jpeg" alt="">
+            </div>
+
+            <div class="layer3">
+                <h6 id="gree">Snack & Munchies</h6>
+                <h3 id="black">Onion Flavour potato</h3>
+
+                <i class="ri-star-fill"></i>
+                <i class="ri-star-fill"></i>
+                <i class="ri-star-fill"></i>
+                <i class="ri-star-fill"></i>
+                <i class="ri-star-half-fill"></i>
+                <span id="gree">4.3(4)</span>
+
+            </div>
+
+            <div class="layer4">
+                <div class="l4left">
+                    <span>$3</span>
+                    <span id="gree"><del>$5</del></span>
+                </div>
+                <div class="l4right">
+                    <button>+Add</button>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="box">
+            <div class="layer1">
+                <div class="ad" id="green">35%</div>
+            </div>
+
+            <div class="layer2">
+                <img src="./popcorn.webp" alt="">
+            </div>
+
+            <div class="layer3">
+                <h6 id="gree">Instant Food</h6>
+                <h3 id="black">Salted Instant Popcorn</h3>
+
+                <i class="ri-star-fill"></i>
+                <i class="ri-star-fill"></i>
+                <i class="ri-star-fill"></i>
+                <i class="ri-star-fill"></i>
+                <i class="ri-star-half-fill"></i>
+                <span id="gree">4.3(4)</span>
+
+            </div>
+
+            <div class="layer4">
+                <div class="l4left">
+                    <span>$11.7</span>
+                    <span id="gree"><del>$18</del></span>
+                </div>
+                <div class="l4right">
+                    <button>+Add</button>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="box">
+            <div class="layer1">
+                <div class="ad">salse</div>
+                <div class="ad" id="green">100%</div>
+            </div>
+
+            <div class="layer2">
+                <img src="./kurkure.jpg" alt="">
+            </div>
+
+            <div class="layer3">
+                <h6 id="gree">Snack & Munchies</h6>
+                <h3 id="black">Masala Munch Kurkure</h3>
+
+                <i class="ri-star-fill"></i>
+                <i class="ri-star-fill"></i>
+                <i class="ri-star-fill"></i>
+                <i class="ri-star-fill"></i>
+                <i class="ri-star-half-fill"></i>
+                <span id="gree">4.3(4)</span>
+
+            </div>
+
+            <div class="layer4">
+                <div class="l4left">
+                    <span>$15</span>
+                    <span id="gree"><del>$19</del></span>
+                </div>
+                <div class="l4right">
+                    <button>+Add</button>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="box">
+            <div class="layer1">
+                <div class="ad">salse</div>
+                <div class="ad" id="green">100%</div>
+            </div>
+
+            <div class="layer2">
+                <img src="./Classic POtato Chips.webp" alt="">
+            </div>
+
+            <div class="layer3">
+                <h6 id="gree">Snack & Munchies</h6>
+                <h3 id="black">Classic Potato Chips</h3>
+
+                <i class="ri-star-fill"></i>
+                <i class="ri-star-fill"></i>
+                <i class="ri-star-fill"></i>
+                <i class="ri-star-fill"></i>
+                <i class="ri-star-half-fill"></i>
+                <span id="gree">4.3(4)</span>
+
+            </div>
+
+            <div class="layer4">
+                <div class="l4left">
+                    <span>$3</span>
+                    <span id="gree"><del>$5</del></span>
+                </div>
+                <div class="l4right">
+                    <button>+Add</button>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="box">
+            <div class="layer1">
+                <div class="ad" id="green">40%</div>
+            </div>
+
+            <div class="layer2">
+                <img src="./blue barry greek.webp" alt="">
+            </div>
+
+            <div class="layer3">
+                <h6 id="gree">Dairy, Bread & Munchies</h6>
+                <h3 id="black">Blue Barry Greek</h3>
+
+                <i class="ri-star-fill"></i>
+                <i class="ri-star-fill"></i>
+                <i class="ri-star-fill"></i>
+                <i class="ri-star-fill"></i>
+                <i class="ri-star-half-fill"></i>
+                <span id="gree">4.3(4)</span>
+
+            </div>
+
+            <div class="layer4">
+                <div class="l4left">
+                    <span>$14.4</span>
+                    <span id="gree"><del>$24</del></span>
+                </div>
+                <div class="l4right">
+                    <button>+Add</button>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="box">
+            <div class="layer1"></div>
+
+            <div class="layer2">
+                <img src="./cheese.webp" alt="">
+            </div>
+
+            <div class="layer3">
+                <h6 id="gree">Dairy, Bread & Munchies</h6>
+                <h3 id="black">Nutoras Cheese</h3>
+
+                <i class="ri-star-fill"></i>
+                <i class="ri-star-fill"></i>
+                <i class="ri-star-fill"></i>
+                <i class="ri-star-fill"></i>
+                <i class="ri-star-half-fill"></i>
+                <span id="gree">4.3(4)</span>
+
+            </div>
+
+            <div class="layer4">
+                <div class="l4left">
+                    <span>$55</span>
+                    <span id="gree"><del>$61</del></span>
+                </div>
+                <div class="l4right">
+                    <button>+Add</button>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="box">
+            <div class="layer1">
+                <div class="ad" id="green">15%</div>
+            </div>
+
+            <div class="layer2">
+                <img src="./fruiti.jpg" alt="">
+            </div>
+
+            <div class="layer3">
+                <h6 id="gree">Colddrinks</h6>
+                <h3 id="black">Unif Fruiti Orange Juice</h3>
+
+                <i class="ri-star-fill"></i>
+                <i class="ri-star-fill"></i>
+                <i class="ri-star-fill"></i>
+                <i class="ri-star-fill"></i>
+                <i class="ri-star-half-fill"></i>
+                <span id="gree">4.3(4)</span>
+
+            </div>
+
+            <div class="layer4">
+                <div class="l4left">
+                    <span>$8</span>
+                    <span id="gree"><del>$10</del></span>
+                </div>
+                <div class="l4right">
+                    <button>+Add</button>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+</body>
+
+</html>
